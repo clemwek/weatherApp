@@ -13,6 +13,17 @@
 		B306825E24F1D7E700A95479 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B306825C24F1D7E700A95479 /* LaunchScreen.storyboard */; };
 		B306826924F1D7E800A95479 /* weatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B306826824F1D7E800A95479 /* weatherAppTests.swift */; };
 		B306827424F1D7E800A95479 /* weatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B306827324F1D7E800A95479 /* weatherAppUITests.swift */; };
+		B30682CC24F2420B00A95479 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30682CB24F2420B00A95479 /* HomeViewController.swift */; };
+		B30682CF24F242B100A95479 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30682CE24F242B100A95479 /* HomeViewModel.swift */; };
+		B30682D124F2539900A95479 /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30682D024F2539800A95479 /* AddLocationViewController.swift */; };
+		B30682D324F2677800A95479 /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30682D224F2677800A95479 /* LocationTableViewController.swift */; };
+		B3DF1F4C24F287CC00BE42AB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DF1F4B24F287CC00BE42AB /* MapKit.framework */; };
+		B3DF1F4E24F2908200BE42AB /* AddLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF1F4D24F2908200BE42AB /* AddLocationViewModel.swift */; };
+		B3DF1F5024F2A35E00BE42AB /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF1F4F24F2A35E00BE42AB /* CityViewController.swift */; };
+		B3DF1F5324F2AAB900BE42AB /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF1F5224F2AAB900BE42AB /* NetworkClient.swift */; };
+		B3DF1F5524F2ADE300BE42AB /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF1F5424F2ADE300BE42AB /* Config.swift */; };
+		B3DF1F5724F2B67600BE42AB /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF1F5624F2B67600BE42AB /* CityViewModel.swift */; };
+		B3DF1F5A24F2C8EB00BE42AB /* WeatherResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF1F5924F2C8EA00BE42AB /* WeatherResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +56,17 @@
 		B306826F24F1D7E800A95479 /* weatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B306827324F1D7E800A95479 /* weatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherAppUITests.swift; sourceTree = "<group>"; };
 		B306827524F1D7E800A95479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B30682CB24F2420B00A95479 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B30682CE24F242B100A95479 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B30682D024F2539800A95479 /* AddLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
+		B30682D224F2677800A95479 /* LocationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = "<group>"; };
+		B3DF1F4B24F287CC00BE42AB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B3DF1F4D24F2908200BE42AB /* AddLocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationViewModel.swift; sourceTree = "<group>"; };
+		B3DF1F4F24F2A35E00BE42AB /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
+		B3DF1F5224F2AAB900BE42AB /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		B3DF1F5424F2ADE300BE42AB /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		B3DF1F5624F2B67600BE42AB /* CityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
+		B3DF1F5924F2C8EA00BE42AB /* WeatherResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3DF1F4C24F287CC00BE42AB /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +102,7 @@
 				B306826724F1D7E800A95479 /* weatherAppTests */,
 				B306827224F1D7E800A95479 /* weatherAppUITests */,
 				B306824F24F1D7E500A95479 /* Products */,
+				B3DF1F4A24F287CC00BE42AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,11 +119,16 @@
 		B306825024F1D7E500A95479 /* weatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				B3DF1F5824F2C8BF00BE42AB /* Model */,
+				B3DF1F5124F2AA7100BE42AB /* Networking */,
+				B30682CD24F2427C00A95479 /* viewModels */,
+				B30682CA24F2419B00A95479 /* viewControllers */,
 				B306825124F1D7E500A95479 /* AppDelegate.swift */,
 				B306825724F1D7E500A95479 /* Main.storyboard */,
 				B306825A24F1D7E700A95479 /* Assets.xcassets */,
 				B306825C24F1D7E700A95479 /* LaunchScreen.storyboard */,
 				B306825F24F1D7E700A95479 /* Info.plist */,
+				B3DF1F5424F2ADE300BE42AB /* Config.swift */,
 			);
 			path = weatherApp;
 			sourceTree = "<group>";
@@ -120,6 +149,51 @@
 				B306827524F1D7E800A95479 /* Info.plist */,
 			);
 			path = weatherAppUITests;
+			sourceTree = "<group>";
+		};
+		B30682CA24F2419B00A95479 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B30682CB24F2420B00A95479 /* HomeViewController.swift */,
+				B30682D024F2539800A95479 /* AddLocationViewController.swift */,
+				B30682D224F2677800A95479 /* LocationTableViewController.swift */,
+				B3DF1F4F24F2A35E00BE42AB /* CityViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		B30682CD24F2427C00A95479 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B30682CE24F242B100A95479 /* HomeViewModel.swift */,
+				B3DF1F4D24F2908200BE42AB /* AddLocationViewModel.swift */,
+				B3DF1F5624F2B67600BE42AB /* CityViewModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		B3DF1F4A24F287CC00BE42AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF1F4B24F287CC00BE42AB /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3DF1F5124F2AA7100BE42AB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF1F5224F2AAB900BE42AB /* NetworkClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B3DF1F5824F2C8BF00BE42AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF1F5924F2C8EA00BE42AB /* WeatherResult.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +327,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B306825224F1D7E500A95479 /* AppDelegate.swift in Sources */,
+				B3DF1F5724F2B67600BE42AB /* CityViewModel.swift in Sources */,
+				B30682CF24F242B100A95479 /* HomeViewModel.swift in Sources */,
+				B3DF1F5524F2ADE300BE42AB /* Config.swift in Sources */,
+				B30682CC24F2420B00A95479 /* HomeViewController.swift in Sources */,
+				B3DF1F4E24F2908200BE42AB /* AddLocationViewModel.swift in Sources */,
+				B30682D324F2677800A95479 /* LocationTableViewController.swift in Sources */,
+				B30682D124F2539900A95479 /* AddLocationViewController.swift in Sources */,
+				B3DF1F5A24F2C8EB00BE42AB /* WeatherResult.swift in Sources */,
+				B3DF1F5024F2A35E00BE42AB /* CityViewController.swift in Sources */,
+				B3DF1F5324F2AAB900BE42AB /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
